@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+	  <link rel="stylesheet" href="registeration.css" />
+   
+  </head>
+  <body>
+   
+    <h1>Registration Form</h1>
+    <form action='/regis_form' method="post">
+    
+        <label>Enter Your First Name: <input type="text" name="fname" required /></label>
+        <label>Enter Your Last Name: <input type="text" name="lname" required /></label>
+        <label>Enter Your Email: <input type="email" name="email" required /></label>
+        <label>Upload a profile picture: <input type="file" name="file" /></label>
+        <label>Age<input type="number" name="age" min="13" max="120" />
+			  </label>
+        <label>Address
+          <textarea name="pro" rows="3" cols="30"></textarea>
+			  </label>
+   
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
